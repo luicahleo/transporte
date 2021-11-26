@@ -14,7 +14,7 @@ excel_doc=openpyxl.load_workbook(name,data_only=True)
 sheet=excel_doc['Hoja1']
 
 arcos=Read_Excel_to_List(sheet, 'B2', 'B14')
-nodos=Read_Excel_to_List(sheet, 'F2', '75')
+nodos=Read_Excel_to_List(sheet, 'F2', 'F7')
 prod_dem=Read_Excel_to_List(sheet, 'G2', 'G7')
 info_arcos=Read_Excel_to_NesteDic(sheet, 'B1', 'E14')
 
